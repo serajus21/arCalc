@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="calc">
+        <!-- userInput -->
+        <section id="userInput">
+            <h2>Enter numbers</h2>
+            <input type="text" id="v1" placeholder="Enter 1st number">
+            <input type="text" id="v2" placeholder="Enter 2nd Number">
+        </section>
+        <!-- user operation command -->
+        <h3>Select your operation</h3>
+        <section id="userOperationCommand">
+            <button class="btn" onclick="input();sum();">+ Summation</button>
+            <button class="btn" onclick="input();sub();">- Substraction</button>
+            <button class="btn" onclick="input();mult();">X Multiplication</button>
+            <button class="btn" onclick="input();div();">/ Division</button>
+        </section>
+        <!-- userOutput -->
+    <p id="userOutput">Your Calculation will appear here...</p>
+    </div>
+</body>
+</html>
